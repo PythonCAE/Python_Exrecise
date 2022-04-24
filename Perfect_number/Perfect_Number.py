@@ -24,9 +24,13 @@ class Prefect_Number:
           print("yes")
         else:
          print("no") 
+
+class Show:
+    def show(s):
+        print(s.check_Perfect_Number())         
 num=   int(input("Enter the number:"))     
 perfnum= Prefect_Number(num)
-perfnum.check_Perfect_Number()
+Show.show(perfnum)
    
 
                            
