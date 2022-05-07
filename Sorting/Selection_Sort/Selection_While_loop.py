@@ -17,7 +17,7 @@ while(l>i):
             Min = list[j]
         Index = list.index(Min)# It will fin the index of the minimum value in list
         j += 1
-    list[i],list[Index] = list[Index],list[i]
+    list[i],list[Index] = list[Index],list[i] #Swaping minimum Number with 1st unodered number in list.
     i += 1
 print(list)    
 
